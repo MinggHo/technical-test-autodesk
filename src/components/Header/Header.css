@@ -1,0 +1,18 @@
+nav {
+  background: hsla(200, 100%, 50%, 1);
+  padding: 3rem;
+}
+
+nav h1 {
+  font-size: 135%;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  nav {
+    padding: 2rem;
+  }
+}
