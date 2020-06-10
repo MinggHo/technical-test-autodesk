@@ -17,7 +17,7 @@ export class CardContainer extends Component {
       loading: true
     })
     axios
-    .get('http://localhost:3000/api.json')
+    .get('/api.json')
     .then( res => {
       setTimeout(() => {
         this.setState({
