@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/developer/documentation" component={LandingPage}></Route>
+          <Route exact path="/" component={LandingPage}></Route>
           <Route path="/developer/en/api/dummy1/intro" component={DummyPage}></Route>
           <Route path="/developer/en/api/dummy1/guide" component={DummyPage}></Route>
           <Route path="/developer/en/api/dummy1/reference" component={DummyPage}></Route>
